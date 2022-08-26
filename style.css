@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+}
+
+main {
+    background-color: rgb(212, 192, 168);
+    height: 80%;
+    width: 50%;
+    margin: 10rem auto;
+    padding: 2.5rem 2rem;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    font-family: fantasy;
+    opacity: 0.5;
+}
+
+button {
+    margin-top: 2.5rem;
+    color: white;
+    background-color: rgb(8, 153, 105);
+    height: 3rem;
+    font-size: 30px;
+}
+
+h2 {
+    margin-top: 1.5rem;
+    color: black;
+    opacity: 0.5;
+}
+
+button:hover {
+    background-color: rgb(221, 178, 123);
+
+}
